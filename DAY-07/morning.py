@@ -24,5 +24,3 @@ print(f'upper = {upper}')
 print(f'lower = {lower}')
 print(f'digit = {digit}')
 print(f'special = {special}')
-
-#WAP to find the sum of digits of a number::eg: input - 145 output = 1+4+5 = 10
