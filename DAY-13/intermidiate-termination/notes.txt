@@ -1,0 +1,41 @@
+
+break :
+    break keyword is used to terminate the Loop permanently.
+    whenever the controller sees the break keyword it will immediately terminate the loop.
+
+example:
+    num = int(input("Enter Number: "))
+    for i in range(1,num):
+        if i == 5:
+            break
+        print(i)
+
+// num=10
+// output: 1 2 3 4 
+            
+
+continue: 
+    continue keyword is used to skip a particular iteration.
+
+example:
+    num = int(input("Enter Number: "))
+    for i in range(1,num):
+        if i == 5:
+            continue
+        print(i) 
+
+// num = 10
+// 1 2 3 4 6 7 8 9
+
+
+
+pass:
+    pass keyword is used to make empty statement block as a valid statement block.
+
+example:
+    for i in range(1,5): //run -> error
+
+
+    for i in range(1,5):
+        pass //No error
+
