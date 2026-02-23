@@ -13,7 +13,7 @@ class Cab :
         Cab.cab_number += 1
         self.TIMEPERIOD = datetime.now()
     def __str__(self):
-        return f"{self.TIMEPERIOD}|Cab Number:{self.cab_number}|Driver Name:{self.DRIVER_NAME}"
+        return f"{self.TIMEPERIOD}|Cab Number:{self.CAB_NUMBER}|Driver Name:{self.DRIVER_NAME}"
 
     def calculate_fare(self,distance,per_km_rates):
         fare = self.base_fare+(distance * per_km_rates)
@@ -87,7 +87,7 @@ class main(MiniCab , SedanCab,LuxuryCab):
             print('Thank You for choosing MiniCab Service.!(Minicab rate:\'₹60perKM\' will charge separately..)')
             distance = int(input('Please The distance for which you will be using our cab service (in km):'))
             service = MiniCab(distance)
-            MiniCab.service_history[service.CAB_NUMBER] = service
+            Cab.service_history[service.CAB_NUMBER] = service
             print('\n',service,'\n')
             print('Thank you for using our Cab Service.\n')
         elif choice == 2 :
@@ -95,7 +95,7 @@ class main(MiniCab , SedanCab,LuxuryCab):
             print('Thank You for choosing SedanCab Service.!(Sedancab rate:\'₹120perKM\' will charge separately..)')
             distance = int(input('Please The distance for which you will be using our cab service (in km):'))
             service = SedanCab(distance)
-            SedanCab.service_history[service.CAB_NUMBER] = service
+            Cab.service_history[service.CAB_NUMBER] = service
             print('\n',service,'\n')
             print('Thank you for using our Cab Service.\n')
         elif choice == 3 :
@@ -103,7 +103,7 @@ class main(MiniCab , SedanCab,LuxuryCab):
             print('Thank You for choosing LuxuryCab Service.!(Luxurycab rate:\'₹240perKM\' will charge separately..)')
             distance = int(input('Please The distance for which you will be using our cab service (in km):'))
             service = LuxuryCab(distance)
-            LuxuryCab.service_history[service.CAB_NUMBER] = service
+            Cab.service_history[service.CAB_NUMBER] = service
             print('\n',service,'\n')
             print('Thank you for using our Cab Service.\n')
         elif choice == 4 :
