@@ -1,9 +1,8 @@
-===============================================================================================================
-# EMPLOYEE MANAGEMENT PROJECT ROADMAP (BEGINNER → PRODUCTION LEVEL) 
-===============================================================================================================
+ # EMPLOYEE MANAGEMENT PROJECT ROADMAP <br> (BEGINNER → PRODUCTION LEVEL) 
+<br>
 
 PHASE 1: FIX & STRENGTHEN CURRENT PROJECT (CORE CRUD)
------------------------------------------------------
+----------------------------------------------------
 
 [Task 1] Fix Menu Issues
 - Correct duplicate menu numbering
