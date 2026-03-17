@@ -116,13 +116,13 @@ PHASE 6: CONVERT TO FLASK BACKEND (VERY IMPORTANT)
 - Create app.py
 
 [Task 18] Create REST APIs
-
+```bash
 POST   /employee          → Create employee
 GET    /employees         → Get all employees
 GET    /employee/<id>     → Get one employee
 PUT    /employee/<id>     → Update employee
 DELETE /employee/<id>     → Delete employee
-
+```
 [Task 19] Use JSON Input/Output
 - Replace input() with request.json
 
@@ -219,14 +219,14 @@ BONUS (HIGH VALUE)
 FINAL RESULT
 -----------------------------------------------------
 
-You will have:
-✔ Strong CRUD fundamentals
-✔ SQL mastery
-✔ Flask backend API
-✔ Full stack project
-✔ Production-ready deployment
+You will have:<BR>
+✔ Strong CRUD fundamentals<BR>
+✔ SQL mastery<BR>
+✔ Flask backend API<BR>
+✔ Full stack project<BR>
+✔ Production-ready deployment<BR>
 ✔ Resume-level project
 
 =========================
-# END OF ROADMAP
+# END OF ROADMAP 
 =========================
